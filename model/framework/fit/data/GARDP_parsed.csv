@@ -1,0 +1,48 @@
+class,original_source,examples,targets
+Aminocoumarins,Actinomycete natural products,Novobiocin | Clorobiocin | Declovanillobiocin | Isovanillobiocin | Novclobiocin 101 | Vanillobiocin,DNA gyrase
+Aminoglycosides (incl. aminocyclitols),Actinomycete natural products or (semi)synthetically derived,Streptomycin | Kanamycin | Amikacin | Gentamicin | Capreomycin | Plazomicin | Apramycin* | Arbekacin | Dibekacin | Hygrovetine* | Isepamicin | Neomycin | Netilmicin | Paromomycin | Sisomicin | Spectinomycin | Tobramycin | Ribostamycin | Micronomicin | Dihydrostreptomycin | Framycetin | Bekanamycin,Ribosome
+Ansamycins (incl. Rifamycins) (macrolides),Actinomycete natural products or (semi)synthetically derived,Rifampicin | Rifabutin | Rifapentine | Rifaximin | Rifamycin | Geldanamycin,RNA polymerase Hsp90
+β-lactams (carbapenems),Actinomycete natural product-derived,Imipenem | Meropenem | Biapenem | Doripenem | Ertapenem | Faropenem | Olivanic acid | Panipenem | Razupenem | Ritipenem | Sanfetrinem | Tebipenem | Tomopenem,Cell wall biosynthesis
+β-lactams (cephalosporins incl. cephems),Fungal natural products or (semi)synthetically derived,1 st generation | Cefadroxil | Cefalonium | Cefazolin | Cephalexin | Cephaloridine | Cephalotin | Cephapirin | Cephradine | Cefacetrile | Cephaloglycin | Cefroxadine | Cefazedone | Cefatrizine | Ceftezole 2 nd generation | Cefaclor | Cefamandole | Cefmetazole | Cefonicid | Ceforanide | Cefotetan | Cefoxitin | Cefprozil | Cefuroxime | Loracarbef | Flomoxef | Cefbuperazone | Cefotiam | Cefminox 3 rd generation | Ceftazidime | Cefdinir | Cefditoren | Cefetamet | Cefixime | Cefmenoxime | Cefoperazone | Cefotaxime | Cefpiramide | Cefpodoxime | Cefsulodin | Ceftibuten | Ceftizoxime | Ceftriaxone | Latamoxef | Cefcapene | Cefodizime | Ceftolozane 4 th generation | Cefpirome | Cefepime | Cefoselis | Cefozopran Others | Cefiderocol | Ceftaroline | Ceftobiprole | Nitrocefin,Cell wall biosynthesis
+β-lactams (penicillins),Fungal natural products or (semi)synthetically derived,Penicillin V (Phenoxymethylpenicillin) | Penicillin G (Benzylpenicillin) | Amoxicillin | Ampicillin | Azlocillin | Carbenicillin | Cloxacillin | Dicloxacillin | Epicillin | Flucloxacillin | Hetacillin | Methicillin | Mezlocillin | Nafcillin | Oxacillin | Piperacillin | Sulbenicillin | Temocillin | Ticarcillin | Metampicillin | Penamecillin | Pivmecillinam | Pivampicillin | Pheneticillin | Amdinocillin (Mecillinam) | Carindacillin | Carfecillin | Cyclacillin | Talampicillin | Sultamicillin | Azidocillin | Propicillin | Bacampicillin | Aspoxicillin | Clometocillin | Meticillin,Cell wall biosynthesis
+β-lactams (monobactams),Bacterial natural products or (semi)synthetically derived,Aztreonam | Nocardicin A | Carumonam | Gloximonam | Oximonam | Pirazmonam | Tigemonam,Cell wall biosynthesis
+β-lactamase inhibitors,(Semi)synthetic,Avibactam | Clavulanic acid | Durlobactam | Enmetazobactam | Nacubactam | Relebactam | Sulbactam | Tazobactam | Zidebactam | Vaborbactam,β-lactamase enzymes
+Diaminopyrimidines / trimethoprim derivatives,Synthetic,Trimethoprim | Iclaprim | Brodimoprim | Epiroprim | Tetroxoprim,Folate metabolism
+Fusidanes,Fungi-derived natural products,Fusidic acid | Helvolic acid | Cephalosporin P 1,Ribosome
+Glycopeptides,Actinomycete natural products,Vancomycin | Teicoplanin | Dalbavancin | Telavancin | Oritavancin,Cell wall biosynthesis
+Lincosamides,Actinomycete natural products,Lincomycin | Clindamycin | Pirlimycin*,Ribosome
+Lipopeptides,Bacterial natural products,Daptomycin | Surfactin,Cell membrane
+Nitroimidazoles,Synthetic,Metronidazole | Tinidazole | Pretomanid | Secnidazole,DNA damage
+Nitrofurans,Synthetic,Nitrofurantoin | Furazolidone | Nifurfoline | Nifurquinazol | Nifurtoinol | Nitrovin | Nifuratel | Nifuroxazide | Nifurtimox | Nifurzide | Nitrofurazone | Tinidazole | Furagin,Ribosome
+Nucleosides,Actinomycete natural products,Puromycin | Capuramycin,Ribosome
+Oxazolidinones,Synthetic,Linezolid | Contezolid | Eperezolid | Posizolid | Radezolid | Ranbezolid | Sutezolid | Tedizolid,Initiation of protein synthesis
+Phenicols,Actinomycete natural products or (semi)synthetically derived,Azidamfenicol | Chloramphenicol | Forfenicol* | Tevenel | Thiamphenicol,Ribosome
+Phenolics,Synthetic,Clofoctol | Chloroxylenol | Parachlorophenol,Unclear | Antiseptic
+Pleuromutilins,Fungal natural product or (semi)synthetically derived,Pleuromutilin | Retapamulin | Lefamulin,Ribosome
+Polyketides – type I (macrolides/ketolides),Actinomycete natural products,Erythromycin | Telithromycin | Azithromycin | Clarithromycin | Cethromycin | Modithromycin | Roxithromycin | Spiramycin | Midecamycin | Rokitamycin | Solithromycin | Flurithromycin | Dirithromycin | Oleandomycin | Troleandomycin | Josamycin | Fidaxomicin,Ribosome RNA polymerase
+Polyketides – type II (tetracyclines),Actinomycete natural products,Tetracycline | Doxycycline | Tigecycline | Omadacycline | Eravacycline | Chlortetracycline | Demeclocycline | Meclocycline | Methacycline | Minocycline | Oxytetracycline | Metacycline | Rolitetracycline | Penimepicycline | Lymecycline | Clomocycline | Sarecycline,Ribosome
+Polypeptides,Bacillus natural produced or (semi)synthetically derived,Bacitracin | Colistin | Polymyxin B | Tyrothricin | Gramicidin | Colistimethate,Cell wall biosynthesis
+(Fluoro)Quinolones,Synthetic,Nalidixic acid | Ciprofloxacin | Moxifloxacin | Levofloxacin | Sitafloxacin | Cinoxacin | Clinafloxacin | Danofloxacin* | Delafloxacin | Difloxacin* | Enoxacin | Enrofloxacin* | Fumequine | Garenoxacin | Gatifloxacin | Gemifloxacin | Grepafloxacin | Lomefloxacin | Marbofloxacin * | Nadifloxacin | Norfloxacin | Ofloxacin | Orbifloxacin* | Oxolinic acid | Pazufloxacin | Pefloxacin | Pipemidic acid | Prulifloxacin | Rufloxacin | Sarafloxacin* | Sparfloxacin | Temafloxacin | Trovafloxacin | Rosoxacin | Piromidic acid | Fleroxacin | Ozenoxacin | Nemonoxacin | Garenoxacin | Finafloxacin | Tosufloxacin | Besifloxacin | Lascufloxacin | Levonadifloxacin,DNA gyrase & DNA topoisomerase IV
+Quinolines,Synthetic,Oxyquinoline | Chloroxine | Dequalinium,Antiseptic
+Quartenary ammonium compounds,Synthetic,Benzoxonium | Tibezonium | Decamethoxine | Cetylpyridinium | Domiphen,Antiseptic
+Streptogramins,Actinomycete natural products or (semi)synthetically derived,Pristinamycin | Virginiamycin | Dalfopristin | Quinupristin,Ribosome
+Sulfonamides,Synthetic,Prontosil (sulfamidochrysoidine) | Sulfanilamide | Sulfabenzamide | Sulfacetamide | Sulfachlorpyridazine | Sulfadiazine | Sulfadimethoxine | Sulfaguanidine | Sulfamerazine | Sulfameter | Sulfamethazine | Sulfamethizole | Sulfamethoxazole | Sulfamethoxypyridazine | Sulfamonomethoxine | Sulfamylon | Sulfanitran* | Sulfaphenazole | Sulfapyridine | Sulfaquinoxaline* | Sulfathiazole | Sulfisoxazole | Sulfametomidine | Sulfamazone | Sulfalene | Sulfadoxine | Sulfametrole | Sulfaperin | Sulfamoxole | Sulfathiourea | Mafenide,Folate metabolism
+Arsenic compounds,Synthetic,Arsphenamine (Salvarsan),Not clear
+Diarylquinolines,Synthetic,Bedaquiline,Proton pump inhibitor
+Riminophenazines,Synthetic,Clofazimine,DNA binding
+Amino acid derivatives,Actinomycete natural products,Cycloserine,Cell wall biosynthesis
+Phosphonic acid derivatives,Actinomycete natural products,Fosfomycin,Cell wall biosynthesis
+N-substituted ethylenediamines,Synthetic,Ethambutol,Cell wall biosynthesis
+Hydrazide derivatives,Synthetic,Isoniazid,NADH-dependent enoyl reductase
+Medium-chain fatty acids,Pseudomonas natural product,Mupirocin (Pseudomonic acid A),Protein synthesis
+Pyrazines,Synthetic,Pyrazinamide,Not clear
+Polychloro phenoxy phenols,Synthetic,Triclosan,Fatty acid synthesis
+Nicotinamide derivatives,Synthetic,Ethionamide,Cell wall biosynthesis
+Biguanides,Synthetic,Chlorhexidine,Antiseptic
+Hexamines,Synthetic,Methenamine,Nonspecific
+Depsipeptides,Fungal natural product,Fusafungine,Unclear
+Aminosalicylates,Synthetic,Aminosalicylic acid,Folate metabolism
+Benzenesulfonyls,Synthetic,Dapsone,Folate metabolism
+Peroxides,Synthetic,Benzoyl peroxide,Antiseptic
+Pyridinium derivatives,Synthetic,Pyrithione,Antiseptic
+N-acyl-alpha amino acids,Synthetic,Cilastatin,Human dehydropeptidase (Co-administration with imipenem)
