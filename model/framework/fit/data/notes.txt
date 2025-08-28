@@ -1,0 +1,3 @@
+- Coumarins are not included in GARDP but appear 9 times in AntibioticDB. (overlap with aminocoumarines). Should we include it?
+- Cyclitols are not included in GARDP but appear 54 times in AntibioticDB. (overlap with aminoglycosides). Shoult we include it?
+- I hace merged penicillanic acids, penicillin allergen and penicillanic acid ester into penicillins. 

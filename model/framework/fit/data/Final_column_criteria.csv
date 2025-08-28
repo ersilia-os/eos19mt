@@ -1,0 +1,9 @@
+Class,CHEBI ids,Column name
+Aminocoumarins,CHEBI:85128,aminocoumarins
+Aminoglycosides (incl. aminocyclitols),CHEBI:47779 or CHEBI:22507 or CHEBI:36974 or CHEBI:38012 or CHEBI:61689 or CHEBI:22479,aminoglycosides_aminocyclitols
+Ansamycins (incl. Rifamycins) (macrolides),CHEBI:22565 or CHEBI:26580 or CHEBI:25106 or CHEBI:25105 or CHEBI:145565,ansamycins_rifamycins_macrolides
+β-lactams (carbapenems),CHEBI:46633,b_lactam_carbapenems
+β-lactams (cephalosporins incl. cephems),CHEBI:23066 or CHEBI:38311 or CHEBI:55506 or CHEBI:55504,
+β-lactams (penicillins),CHEBI:17334 or CHEBI:25865 or CHEBI:88187 or CHEBI:51212,
+β-lactams (monobactams),CHEBI:50695,
+β-lactamase inhibitors,,
