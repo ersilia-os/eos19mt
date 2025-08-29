@@ -2,8 +2,40 @@ Class,CHEBI ids,Column name
 Aminocoumarins,CHEBI:85128,aminocoumarins
 Aminoglycosides (incl. aminocyclitols),CHEBI:47779 or CHEBI:22507 or CHEBI:36974 or CHEBI:38012 or CHEBI:61689 or CHEBI:22479,aminoglycosides_aminocyclitols
 Ansamycins (incl. Rifamycins) (macrolides),CHEBI:22565 or CHEBI:26580 or CHEBI:25106 or CHEBI:25105 or CHEBI:145565,ansamycins_rifamycins_macrolides
-β-lactams (carbapenems),CHEBI:46633,b_lactam_carbapenems
-β-lactams (cephalosporins incl. cephems),CHEBI:23066 or CHEBI:38311 or CHEBI:55506 or CHEBI:55504,
-β-lactams (penicillins),CHEBI:17334 or CHEBI:25865 or CHEBI:88187 or CHEBI:51212,
-β-lactams (monobactams),CHEBI:50695,
-β-lactamase inhibitors,,
+β-lactams (carbapenems),CHEBI:46633,b_lactams_carbapenems
+β-lactams (cephalosporins incl. cephems),CHEBI:23066 or CHEBI:38311 or CHEBI:55506 or CHEBI:55504,b_lactams_cephalosporins_cephems
+β-lactams (penicillins),CHEBI:17334 or CHEBI:25865 or CHEBI:88187 or CHEBI:51212,b_lactams_penicillins
+β-lactams (monobactams),CHEBI:50695,b_lactams_monobactams
+β-lactamase inhibitors,CHEBI:35625,b_lactamase_inhibitors
+β-lactams (all),CHEBI:35627 or CHEBI:27933 or CHEBI:88225,b_lactams_all
+Aminopyrimidines / trimethoprim derivatives,CHEBI:38338 or CHEBI:45924,aminopyrimidines_trimethoprim_der
+Glycopeptides,CHEBI:24396,glycopeptides
+Lipopeptides,CHEBI:46895,lipopeptides
+Nitrofurans,CHEBI:87230,nitrofurans
+Nucleosides,CHEBI:33838,nucleosides
+Oxazolidinones,CHEBI:55374,oxazolidinones
+Phenols,CHEBI:33853 or CHEBI:26195,phenols
+Polyketides – type I (macrolides/ketolides),CHEBI:26188 and (CHEBI:25106 or CHEBI:25105),polyketides_type_I
+Polyketides – type II (tetracyclines),CHEBI:26188 and CHEBI:26895,polyketides_type_II
+Polypeptides,CHEBI:15841,polypeptides
+(Fluoro)Quinolones,CHEBI:87211,fluoroquinolones
+Quinolines,CHEBI:26513 or CHEBI:26512 or CHEBI:38921 or CHEBI:53665 or CHEBI:36709 or CHEBI:38774 or CHEBI:38775,quinolines
+Quartenary ammonium compounds,CHEBI:35267 or CHEBI:35273,quat_ammonium_cpds
+Sulfonamides,CHEBI:35358 or CHEBI:87228,sulfonamides
+Arsenic compounds,CHEBI:33406 or CHEBI:22632 or CHEBI:33407 or CHEBI:27563,arsenic_cpds
+Amino acid derivatives,CHEBI:83821,amino_acid_der
+Phosphonic acid derivatives,CHEBI:37588 or CHEBI:26069,phosphonic_acid_der
+Hydrazides,CHEBI:35362,hydrazides
+Medium-chain fatty acids,CHEBI:59554 or CHEBI:59558,mc_fatty_acids
+Long-chain fatty acids,CHEBI:15904 or CHEBI:57560,lc_fatty_acids
+Pyrazines,CHEBI:38314,pyrazines
+Biguanides,CHEBI:53662,biguanides
+Depsipeptides,CHEBI:23643 or CHEBI:35213,depsipeptides
+Benzenesulfonyls,CHEBI:52916,benzenesulfonyls
+Peroxides,CHEBI:25940,peroxides
+Pyridiniums,CHEBI:38188 or CHEBI:50334,pyridinium
+Antifungals,CHEBI:86478,antifungal
+Heterocyclic antibiotics,CHEBI:24531,heterocyclic_antibiotic
+Quinolones,CHEBI:24531 or CHEBI:23765,quinolones
+Penams,CHEBI:35992,penams
+Anthracyclines,CHEBI:48120,Anthracycline
