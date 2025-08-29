@@ -1,1 +1,41 @@
 name,type,direction,description
+amino_acid_der,integer,high,Presence of ChEBI predicted parents associated with Amino acid derivatives
+aminocoumarins,integer,high,Presence of ChEBI predicted parents associated with Aminocoumarins
+aminoglycosides_aminocyclitols,integer,high,Presence of ChEBI predicted parents associated with Aminoglycosides (incl. aminocyclitols)
+aminopyrimidines_trimethoprim_der,integer,high,Presence of ChEBI predicted parents associated with Aminopyrimidines / trimethoprim derivatives
+ansamycins_rifamycins_macrolides,integer,high,Presence of ChEBI predicted parents associated with Ansamycins (incl. Rifamycins) (macrolides)
+anthracyclines,integer,high,Presence of ChEBI predicted parents associated with Anthracyclines
+antifungal,integer,high,Presence of ChEBI predicted parents associated with Antifungals
+arsenic_cpds,integer,high,Presence of ChEBI predicted parents associated with Arsenic compounds
+b_lactamase_inhibitors,integer,high,Presence of ChEBI predicted parents associated with β-lactamase inhibitors
+b_lactams_all,integer,high,Presence of ChEBI predicted parents associated with β-lactams (all)
+b_lactams_carbapenems,integer,high,Presence of ChEBI predicted parents associated with β-lactams (carbapenems)
+b_lactams_cephalosporins_cephems,integer,high,Presence of ChEBI predicted parents associated with β-lactams (cephalosporins incl. cephems)
+b_lactams_monobactams,integer,high,Presence of ChEBI predicted parents associated with β-lactams (monobactams)
+b_lactams_penicillins,integer,high,Presence of ChEBI predicted parents associated with β-lactams (penicillins)
+benzenesulfonyls,integer,high,Presence of ChEBI predicted parents associated with Benzenesulfonyls
+biguanides,integer,high,Presence of ChEBI predicted parents associated with Biguanides
+depsipeptides,integer,high,Presence of ChEBI predicted parents associated with Depsipeptides
+fluoroquinolones,integer,high,Presence of ChEBI predicted parents associated with (Fluoro)Quinolones
+glycopeptides,integer,high,Presence of ChEBI predicted parents associated with Glycopeptides
+heterocyclic_antibiotic,integer,high,Presence of ChEBI predicted parents associated with Heterocyclic antibiotics
+hydrazides,integer,high,Presence of ChEBI predicted parents associated with Hydrazides
+lc_fatty_acids,integer,high,Presence of ChEBI predicted parents associated with Long-chain fatty acids
+lipopeptides,integer,high,Presence of ChEBI predicted parents associated with Lipopeptides
+mc_fatty_acids,integer,high,Presence of ChEBI predicted parents associated with Medium-chain fatty acids
+nitrofurans,integer,high,Presence of ChEBI predicted parents associated with Nitrofurans
+nucleosides,integer,high,Presence of ChEBI predicted parents associated with Nucleosides
+oxazolidinones,integer,high,Presence of ChEBI predicted parents associated with Oxazolidinones
+penams,integer,high,Presence of ChEBI predicted parents associated with Penams
+peroxides,integer,high,Presence of ChEBI predicted parents associated with Peroxides
+phenols,integer,high,Presence of ChEBI predicted parents associated with Phenols
+phosphonic_acid_der,integer,high,Presence of ChEBI predicted parents associated with Phosphonic acid derivatives
+polyketides_type_I,integer,high,Presence of ChEBI predicted parents associated with Polyketides – type I (macrolides/ketolides)
+polyketides_type_II,integer,high,Presence of ChEBI predicted parents associated with Polyketides – type II (tetracyclines)
+polypeptides,integer,high,Presence of ChEBI predicted parents associated with Polypeptides
+pyrazines,integer,high,Presence of ChEBI predicted parents associated with Pyrazines
+pyridinium,integer,high,Presence of ChEBI predicted parents associated with Pyridiniums
+quat_ammonium_cpds,integer,high,Presence of ChEBI predicted parents associated with Quartenary ammonium compounds
+quinolines,integer,high,Presence of ChEBI predicted parents associated with Quinolines
+quinolones,integer,high,Presence of ChEBI predicted parents associated with Quinolones
+sulfonamides,integer,high,Presence of ChEBI predicted parents associated with Sulfonamides
