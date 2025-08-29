@@ -1,0 +1,16 @@
+- Coumarins are not included in GARDP but appear 9 times in AntibioticDB. (overlap with aminocoumarines). Should we include it? No.
+- Cyclitols are not included in GARDP but appear 54 times in AntibioticDB. (overlap with aminoglycosides). Shoult we include it? No.
+- I hace merged penicillanic acids, penicillin allergen and penicillanic acid ester into penicillins. 
+- I have added an extra feature accounting for other b-lactam chebis: beta-lactam, beta-lactam antibiotic and beta-lactam antibiotic allergen
+- I've changed "diaminopyrimidines" for "aminopyrimidines".
+- I've added an extra feature for long-chain fatty acids.
+- I've added an extra feature for antifungals.
+- I've added an extra feature for heterocyclic antibiotics.
+- I've added an extra feature for quinolones.
+- I've added an extra feature for penams.
+- I've added an extra feature for anthracyclines.
+- Quinolines now also include: quinolinemonocarboxylic acid, pyridoquinoline, oxazinoquinoline, aminoquinoline, hydroxyquinoline and monohydroxyquinoline.
+- GARDP entries not considered: Fusidanes, Lincosamides, Nitroimidazoles, Phenicols, Pleuromutilins, Streptogramins, Diarylquinolines, Riminophenazines, N-substituted ethylenediamines, Polychloro phenoxy phenols, Nicotinamide derivatives, Hexamines, Aminosalicylates, N-acyl-alpha amino acids
+- Renamed "Phenolics" to "Phenols".
+- Renamed "Hydrazide derivatives" to "Hydrazides".
+- Renamed "Pyridinium derivatives" to "Pyridiniums".

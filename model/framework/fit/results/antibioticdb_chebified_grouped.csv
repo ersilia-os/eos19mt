@@ -1,0 +1,630 @@
+ChEBI ID,Count,label
+CHEBI:24431,2138,chemical entity
+CHEBI:23367,2138,molecular entity
+CHEBI:33579,2136,main group molecular entity
+CHEBI:33675,2136,p-block molecular entity
+CHEBI:50860,2136,organic molecular entity
+CHEBI:33582,2136,carbon group molecular entity
+CHEBI:33285,2114,heteroorganic entity
+CHEBI:33304,1980,chalcogen molecular entity
+CHEBI:36357,1962,polyatomic entity
+CHEBI:25806,1889,oxygen molecular entity
+CHEBI:36962,1880,organochalcogen compound
+CHEBI:36963,1780,organooxygen compound
+CHEBI:25367,1763,molecule
+CHEBI:72695,1740,organic molecule
+CHEBI:33302,1687,pnictogen molecular entity
+CHEBI:51143,1664,nitrogen molecular entity
+CHEBI:33595,1640,cyclic compound
+CHEBI:33832,1610,organic cyclic compound
+CHEBI:35352,1605,organonitrogen compound
+CHEBI:5686,1315,heterocyclic compound
+CHEBI:24532,1313,organic heterocyclic compound
+CHEBI:37577,1004,heteroatomic molecular entity
+CHEBI:38101,920,organonitrogen heterocyclic compound
+CHEBI:33655,821,aromatic compound
+CHEBI:32988,818,amide
+CHEBI:33659,817,organic aromatic compound
+CHEBI:33256,775,primary amide
+CHEBI:33635,760,polycyclic compound
+CHEBI:37622,707,carboxamide
+CHEBI:36587,628,organic oxo compound
+CHEBI:36586,628,carbonyl compound
+CHEBI:33671,614,heteropolycyclic compound
+CHEBI:38166,614,organic heteropolycyclic compound
+CHEBI:33674,587,s-block molecular entity
+CHEBI:33608,577,hydrogen molecular entity
+CHEBI:24651,573,hydroxides
+CHEBI:50047,546,organic amino compound
+CHEBI:26835,490,sulfur molecular entity
+CHEBI:24471,460,halogen molecular entity
+CHEBI:33261,448,organosulfur compound
+CHEBI:33636,433,bicyclic compound
+CHEBI:37578,431,halide
+CHEBI:17792,423,organohalogen compound
+CHEBI:27171,390,organic heterobicyclic compound
+CHEBI:33672,390,heterobicyclic compound
+CHEBI:38104,381,oxacycle
+CHEBI:33822,347,organic hydroxy compound
+CHEBI:24531,325,heterocyclic antibiotic
+CHEBI:25558,315,organonitrogen heterocyclic antibiotic
+CHEBI:16670,296,peptide
+CHEBI:78616,287,carbohydrates and carbohydrate derivatives
+CHEBI:63299,277,carbohydrate derivative
+CHEBI:33661,272,monocyclic compound
+CHEBI:25693,270,organic heteromonocyclic compound
+CHEBI:33670,270,heteromonocyclic compound
+CHEBI:35701,258,ester
+CHEBI:24995,257,lactam
+CHEBI:23443,257,cyclic amide
+CHEBI:24062,252,fluorine molecular entity
+CHEBI:35627,241,beta-lactam
+CHEBI:38106,236,organosulfur heterocyclic compound
+CHEBI:27933,235,beta-lactam antibiotic
+CHEBI:33597,234,homocyclic compound
+CHEBI:33598,234,carbocyclic compound
+CHEBI:33833,230,heteroarene
+CHEBI:33308,230,carboxylic ester
+CHEBI:64709,208,organic acid
+CHEBI:33836,204,benzenoid aromatic compound
+CHEBI:24833,200,oxoacid
+CHEBI:35605,198,carbon oxoacid
+CHEBI:33575,196,carboxylic acid
+CHEBI:17087,183,ketone
+CHEBI:23117,175,chlorine molecular entity
+CHEBI:63161,160,glycosyl compound
+CHEBI:37143,159,organofluorine compound
+CHEBI:18059,150,lipid
+CHEBI:26188,150,polyketide
+CHEBI:51958,147,organic polycyclic compound
+CHEBI:25000,141,lactone
+CHEBI:36683,139,organochlorine compound
+CHEBI:38179,135,monocyclic heteroarene
+CHEBI:68452,131,azole
+CHEBI:51026,123,macrocycle
+CHEBI:25698,120,ether
+CHEBI:22712,118,benzenes
+CHEBI:33853,111,phenols
+CHEBI:24400,108,glycoside
+CHEBI:63944,95,macrocyclic lactone
+CHEBI:51959,93,organic tricyclic compound
+CHEBI:25106,91,macrolide
+CHEBI:26513,86,quinolines
+CHEBI:38311,85,cephem
+CHEBI:23066,81,cephalosporin
+CHEBI:3992,80,cyclic ketone
+CHEBI:33241,76,oxoacid derivative
+CHEBI:23449,67,cyclic peptide
+CHEBI:35618,65,aromatic ether
+CHEBI:33839,64,macromolecule
+CHEBI:36688,62,heterotricyclic compound
+CHEBI:26979,62,organic heterotricyclic compound
+CHEBI:24913,61,isoprenoid
+CHEBI:25676,60,oligopeptide
+CHEBI:67194,60,cannabinoid
+CHEBI:33424,58,sulfur oxoacid derivative
+CHEBI:78840,56,olefinic compound
+CHEBI:30879,56,alcohol
+CHEBI:35992,55,penams
+CHEBI:23451,54,cyclitol
+CHEBI:26191,54,polyol
+CHEBI:33860,52,aromatic amine
+CHEBI:15841,52,polypeptide
+CHEBI:33552,51,sulfonic acid derivative
+CHEBI:26873,51,terpenoid
+CHEBI:36141,50,quinone
+CHEBI:25105,47,macrolide antibiotic
+CHEBI:29347,46,monocarboxylic acid amide
+CHEBI:25384,45,monocarboxylic acid
+CHEBI:50996,45,tertiary amino compound
+CHEBI:35358,44,sulfonamide
+CHEBI:35294,43,carbopolycyclic compound
+CHEBI:47779,43,aminoglycoside
+CHEBI:35295,43,homopolycyclic compound
+CHEBI:35715,41,nitro compound
+CHEBI:35716,39,C-nitro compound
+CHEBI:62733,38,aromatic amide
+CHEBI:24870,35,ion
+CHEBI:23643,35,depsipeptide
+CHEBI:35359,33,carboxamidine
+CHEBI:2634,33,amidine
+CHEBI:22479,33,amino cyclitol glycoside
+CHEBI:25865,33,penicillanic acids
+CHEBI:48901,32,thiazoles
+CHEBI:38313,32,diazines
+CHEBI:35341,32,steroid
+CHEBI:17334,31,penicillin
+CHEBI:25699,31,organic ion
+CHEBI:23007,30,carbohydrate-containing antibiotic
+CHEBI:35789,30,oxo steroid
+CHEBI:26822,30,sulfide
+CHEBI:26912,30,oxolanes
+CHEBI:51721,30,"alpha,beta-unsaturated ketone"
+CHEBI:51689,30,enone
+CHEBI:26144,29,piperazines
+CHEBI:36916,29,cation
+CHEBI:26195,28,polyphenol
+CHEBI:21731,28,N-glycosyl compound
+CHEBI:35213,27,cyclodepsipeptide
+CHEBI:33709,27,amino acid
+CHEBI:25697,27,organic cation
+CHEBI:86324,27,quinolone antibiotic
+CHEBI:38418,27,"1,3-thiazoles"
+CHEBI:22928,26,bromine molecular entity
+CHEBI:22507,26,aminoglycoside antibiotic
+CHEBI:61120,26,nucleobase-containing molecular entity
+CHEBI:39447,26,pyrimidines
+CHEBI:23132,24,chlorobenzenes
+CHEBI:23765,24,quinolone
+CHEBI:16385,24,organic sulfide
+CHEBI:37141,24,organobromine compound
+CHEBI:47017,24,tetrahydrofuranol
+CHEBI:47787,24,11-oxo steroid
+CHEBI:50995,24,secondary amino compound
+CHEBI:24396,24,glycopeptide
+CHEBI:63367,23,monosaccharide derivative
+CHEBI:36358,23,polyatomic ion
+CHEBI:38443,22,1-benzopyran
+CHEBI:22727,22,benzopyran
+CHEBI:33838,22,nucleoside
+CHEBI:33702,21,polyatomic cation
+CHEBI:35274,21,ammonium ion derivative
+CHEBI:26895,20,tetracyclines
+CHEBI:51269,20,acenes
+CHEBI:37407,20,cyclic ether
+CHEBI:26082,20,phosphorus molecular entity
+CHEBI:25830,20,p-quinones
+CHEBI:33859,20,aromatic carboxylic acid
+CHEBI:46633,20,carbapenems
+CHEBI:137419,19,secondary ammonium ion
+CHEBI:167559,19,glycan
+CHEBI:48545,18,pentapeptide
+CHEBI:22702,18,benzamides
+CHEBI:22645,18,arenecarboxamide
+CHEBI:36820,18,ring assembly
+CHEBI:38032,18,carbotricyclic compound
+CHEBI:36360,18,phosphorus oxoacids and derivatives
+CHEBI:26004,17,phenylpropanoid
+CHEBI:72544,17,flavonoids
+CHEBI:36359,16,phosphorus oxoacid derivative
+CHEBI:26079,16,phosphoric acid derivative
+CHEBI:36785,16,carbobicyclic compound
+CHEBI:38180,16,polycyclic heteroarene
+CHEBI:87228,16,sulfonamide antibiotic
+CHEBI:23424,16,cyanides
+CHEBI:59769,16,acetal
+CHEBI:33581,16,boron group molecular entity
+CHEBI:18379,16,nitrile
+CHEBI:24129,15,furans
+CHEBI:25481,15,naphthoquinone
+CHEBI:88187,15,penicillin allergen
+CHEBI:26167,15,polar amino acid
+CHEBI:22728,14,benzopyrrole
+CHEBI:26421,14,pyridines
+CHEBI:25807,14,organooxygen heterocyclic antibiotic
+CHEBI:51285,14,acenoquinone
+CHEBI:15734,14,primary alcohol
+CHEBI:22916,14,boron molecular entity
+CHEBI:26020,14,phosphate
+CHEBI:24533,14,heterodetic cyclic peptide
+CHEBI:87211,13,fluoroquinolone antibiotic
+CHEBI:38099,13,thiadiazoles
+CHEBI:72588,13,semisynthetic derivative
+CHEBI:22315,12,alkaloid
+CHEBI:32955,12,epoxide
+CHEBI:26151,12,piperidines
+CHEBI:51683,12,methoxybenzenes
+CHEBI:23677,12,diazole
+CHEBI:33570,12,benzenediols
+CHEBI:38278,12,organoboron compound
+CHEBI:25703,12,organic phosphate
+CHEBI:25710,12,organophosphorus compound
+CHEBI:23849,12,diterpenoid
+CHEBI:26658,11,sesquiterpenoid
+CHEBI:51212,11,penicillanic acid ester
+CHEBI:83821,11,amino-acid derivative
+CHEBI:46848,11,N-arylpiperazine
+CHEBI:63563,10,oligosaccharide derivative
+CHEBI:46955,10,anthracenes
+CHEBI:140325,10,secondary carboxamide
+CHEBI:64459,10,biaryl
+CHEBI:33854,10,aromatic alcohol
+CHEBI:139588,10,alpha-hydroxy ketone
+CHEBI:33857,10,aromatic primary alcohol
+CHEBI:73539,10,naphthyridine derivative
+CHEBI:47019,10,dihydroxytetrahydrofuran
+CHEBI:39201,10,phenazines
+CHEBI:28963,10,amino sugar
+CHEBI:47622,10,acetate ester
+CHEBI:1624,10,3-oxo-5beta-steroid
+CHEBI:136889,10,5beta steroid
+CHEBI:47788,10,3-oxo steroid
+CHEBI:76224,10,aromatic ketone
+CHEBI:23232,9,chromenes
+CHEBI:132130,9,hydroxyquinone
+CHEBI:132142,9,"1,4-naphthoquinones"
+CHEBI:23403,9,coumarins
+CHEBI:71548,9,dihydroagarofuran sesquiterpenoid
+CHEBI:38445,9,chromenone
+CHEBI:47916,9,flavonoid
+CHEBI:22723,9,benzoic acids
+CHEBI:24043,9,flavones
+CHEBI:192499,9,anthoxanthin
+CHEBI:83403,8,monochlorobenzenes
+CHEBI:46895,8,lipopeptide
+CHEBI:37142,8,organoiodine compound
+CHEBI:24860,8,iodine molecular entity
+CHEBI:37734,8,phosphoric ester
+CHEBI:46761,8,dipeptide
+CHEBI:25477,8,naphthalenes
+CHEBI:38530,8,quinazolines
+CHEBI:23697,8,dichlorobenzene
+CHEBI:38295,8,azabicycloalkane
+CHEBI:132155,8,hydroxynaphthoquinone
+CHEBI:38102,8,triazines
+CHEBI:48435,8,triazolopyrimidines
+CHEBI:39410,8,"1,2,4-triazines"
+CHEBI:38338,8,aminopyrimidine
+CHEBI:22562,8,anilines
+CHEBI:50893,8,azaarene
+CHEBI:35875,8,imidazopyrimidine
+CHEBI:48975,8,substituted aniline
+CHEBI:26440,8,pyrimidine nucleoside
+CHEBI:22580,8,anthraquinone
+CHEBI:26401,8,purines
+CHEBI:48120,7,anthracycline
+CHEBI:24698,7,hydroxyflavone
+CHEBI:26512,7,quinolinemonocarboxylic acid
+CHEBI:83565,7,(trifluoromethyl)benzenes
+CHEBI:35790,6,oxazole
+CHEBI:60027,6,polymer
+CHEBI:51067,6,tetraphenes
+CHEBI:60004,6,mixture
+CHEBI:59999,6,chemical substance
+CHEBI:24613,6,homodetic cyclic peptide
+CHEBI:48590,6,hydroxypiperidine
+CHEBI:38921,6,pyridoquinoline
+CHEBI:22160,6,acetamides
+CHEBI:83820,6,non-proteinogenic amino acid
+CHEBI:25754,6,oxo carboxylic acid
+CHEBI:18254,6,ribonucleoside
+CHEBI:35871,6,oxo monocarboxylic acid
+CHEBI:47881,6,3-oxo monocarboxylic acid
+CHEBI:59777,6,ketal
+CHEBI:36615,6,triterpenoid
+CHEBI:13248,6,anilide
+CHEBI:27369,6,zwitterion
+CHEBI:48129,6,benzoisochromanequinone
+CHEBI:28802,6,flavonols
+CHEBI:52267,6,7-hydroxyflavonol
+CHEBI:23636,6,deoxyribonucleoside
+CHEBI:51151,6,dipolar compound
+CHEBI:86478,6,antibiotic antifungal agent
+CHEBI:46845,6,N-alkylpiperazine
+CHEBI:24828,6,indoles
+CHEBI:62732,6,aromatic ester
+CHEBI:24780,6,imidazoles
+CHEBI:73754,6,thiosugar
+CHEBI:38958,6,indole alkaloid
+CHEBI:35366,6,fatty acid
+CHEBI:15904,6,long-chain fatty acid
+CHEBI:24951,6,kanamycins
+CHEBI:50994,6,primary amino compound
+CHEBI:88225,5,beta-lactam antibiotic allergen
+CHEBI:51454,5,cyclopropanes
+CHEBI:25704,4,organic sulfate
+CHEBI:26820,4,sulfates
+CHEBI:24669,4,hydroxy carboxylic acid
+CHEBI:37485,4,hydroxyanthraquinones
+CHEBI:26394,4,purine nucleoside
+CHEBI:38163,4,organic heterotetracyclic compound
+CHEBI:51614,4,diarylmethane
+CHEBI:132157,4,"hydroxy-1,4-naphthoquinone"
+CHEBI:32952,4,amine
+CHEBI:20857,4,C-glycosyl compound
+CHEBI:25248,4,methyl ester
+CHEBI:38757,4,isoflavones
+CHEBI:50753,4,isoflavonoid
+CHEBI:35850,4,sulfone
+CHEBI:61689,4,amino cyclitol
+CHEBI:46846,4,piperazinone
+CHEBI:83813,4,proteinogenic amino acid
+CHEBI:50492,4,thiocarbonyl compound
+CHEBI:87230,4,nitrofuran antibiotic
+CHEBI:48130,4,angucycline
+CHEBI:53665,4,oxazinoquinoline
+CHEBI:27208,4,unsaturated fatty acid
+CHEBI:59202,4,straight-chain fatty acid
+CHEBI:133135,4,chromenochromene
+CHEBI:71543,4,rotenoid
+CHEBI:37826,4,sulfuric acid derivative
+CHEBI:74222,4,gamma-lactam
+CHEBI:26410,4,pyrazoles
+CHEBI:61697,4,fatty acid derivative
+CHEBI:36709,4,aminoquinoline
+CHEBI:33245,4,organic fundamental parent
+CHEBI:33692,4,hydrides
+CHEBI:35552,4,heterocyclic organic fundamental parent
+CHEBI:35568,4,mancude ring
+CHEBI:35571,4,mancude organic heterocyclic parent
+CHEBI:35573,4,organic mancude parent
+CHEBI:37175,4,organic hydride
+CHEBI:33704,4,alpha-amino acid
+CHEBI:33599,4,spiro compound
+CHEBI:26776,4,stilbenoid
+CHEBI:33572,4,resorcinols
+CHEBI:72579,4,tetrahydrochromenochromene
+CHEBI:48585,4,heteroarylpiperidine
+CHEBI:73537,4,"1,8-naphthyridine derivative"
+CHEBI:37581,4,gamma-lactone
+CHEBI:36054,4,benzoate ester
+CHEBI:25750,4,oxime
+CHEBI:47857,4,ureas
+CHEBI:26255,4,prenylquinone
+CHEBI:22483,4,amino oligosaccharide
+CHEBI:83811,4,proteinogenic amino acid derivative
+CHEBI:50784,3,pivalate ester
+CHEBI:136685,3,pivaloyloxymethyl ester
+CHEBI:35683,3,aryl sulfide
+CHEBI:33551,3,organosulfonic acid
+CHEBI:38684,3,tetrahydroxyflavone
+CHEBI:35496,3,fluorobenzenes
+CHEBI:33856,3,aromatic amino acid
+CHEBI:46700,3,benzoxazole
+CHEBI:26547,3,rhamnoside
+CHEBI:27848,3,alpha-L-rhamnoside
+CHEBI:35315,3,deoxy hexoside
+CHEBI:131927,3,dicarboxylic acids and O-substituted derivatives
+CHEBI:24676,3,hydroxybenzoic acid
+CHEBI:24397,2,glycophospholipid
+CHEBI:166828,2,saccharolipid
+CHEBI:25051,2,lipid As
+CHEBI:33563,2,glycolipid
+CHEBI:35371,2,lipooligosaccharide
+CHEBI:35740,2,liposaccharide
+CHEBI:16247,2,phospholipid
+CHEBI:26628,2,selenium molecular entity
+CHEBI:25712,2,organoselenium compound
+CHEBI:35406,2,oxoanion
+CHEBI:33619,2,boron oxoanion
+CHEBI:33273,2,polyatomic anion
+CHEBI:37947,2,benzothiazoles
+CHEBI:22563,2,anion
+CHEBI:67197,2,endocannabinoid
+CHEBI:48207,2,kinamycin
+CHEBI:51276,2,thioureas
+CHEBI:38755,2,hydroxyisoflavone
+CHEBI:52898,2,azamacrocycle
+CHEBI:84186,2,L-proline derivative
+CHEBI:22480,2,amino disaccharide
+CHEBI:25741,2,oxide
+CHEBI:46774,2,polyether
+CHEBI:24782,2,imide
+CHEBI:28384,2,vitamin K
+CHEBI:33257,2,secondary amide
+CHEBI:73474,2,acetylenic compound
+CHEBI:88061,2,polyamine
+CHEBI:38751,2,triamine
+CHEBI:48924,2,erythromycin derivative
+CHEBI:23953,2,erythromycins
+CHEBI:35312,2,pentoside
+CHEBI:28079,2,beta-L-arabinoside
+CHEBI:22601,2,arabinoside
+CHEBI:35356,2,dicarboximide
+CHEBI:23778,2,dihydroxybenzoic acid
+CHEBI:26208,2,polyunsaturated fatty acid
+CHEBI:25608,2,nucleoside phosphate
+CHEBI:39270,2,naphthofuran
+CHEBI:26580,2,rifamycins
+CHEBI:51149,2,xanthones
+CHEBI:39203,2,dibenzopyran
+CHEBI:38835,2,xanthenes
+CHEBI:26537,2,retinoid
+CHEBI:22307,2,aldoxime
+CHEBI:46952,2,oxazinane
+CHEBI:38785,2,morpholines
+CHEBI:48593,2,benzocycloheptapyridine
+CHEBI:231540,2,nucleotide derivative
+CHEBI:194135,2,"9-fluoro-3-methyl-10-(4-methylpiperazin-1-yl)-7-oxo-2,3-dihydro-7H-[1,4]oxazino[2,3,4-ij]quinoline-6-carboxylic acid"
+CHEBI:46920,2,N-methylpiperazine
+CHEBI:231697,2,pyrroloquinazoline
+CHEBI:38093,2,phenothiazines
+CHEBI:46847,2,N-iminopiperazine
+CHEBI:26469,2,quaternary nitrogen compound
+CHEBI:51737,2,"alpha,beta-unsaturated carboxylic ester"
+CHEBI:51702,2,enoate ester
+CHEBI:55506,2,oxacephem
+CHEBI:63349,2,trideoxyhexose derivative
+CHEBI:63340,2,deoxyhexose derivative
+CHEBI:63338,2,deoxy sugar derivative
+CHEBI:22715,2,benzimidazoles
+CHEBI:63567,2,tetrasaccharide derivative
+CHEBI:26404,2,puromycins
+CHEBI:26399,2,purine ribonucleoside
+CHEBI:22260,2,adenosines
+CHEBI:27741,2,3'-hydroxyflavonoid
+CHEBI:37940,2,cyclopentapyridine
+CHEBI:38771,2,quinoxaline derivative
+CHEBI:36468,2,polycyclic ether
+CHEBI:59793,2,monothioacetal
+CHEBI:59792,2,thioacetal
+CHEBI:46770,2,pyrrolidinecarboxamide
+CHEBI:38260,2,pyrrolidines
+CHEBI:36757,2,farnesane sesquiterpenoid
+CHEBI:28600,2,farnesol
+CHEBI:26244,2,prenols
+CHEBI:26199,2,polyprenol
+CHEBI:50401,2,cholestanoid
+CHEBI:47909,2,3-oxo-Delta(4) steroid
+CHEBI:50455,2,cyclic desferrioxamine
+CHEBI:50453,2,desferrioxamine
+CHEBI:24650,2,hydroxamic acid
+CHEBI:23445,2,cyclic hydroxamic acid
+CHEBI:47018,2,monohydroxytetrahydrofuran
+CHEBI:79393,2,thiinoindole
+CHEBI:50477,2,butyrate ester
+CHEBI:35748,2,fatty acid ester
+CHEBI:65061,2,"2,5-diketopiperazines"
+CHEBI:63353,2,disaccharide derivative
+CHEBI:63356,2,glycosyl glycoside derivative
+CHEBI:48132,2,tetracenomycin
+CHEBI:55373,2,isoxazoles
+CHEBI:51549,2,benzisoxazole
+CHEBI:23003,2,carbamate ester
+CHEBI:195237,2,alkenylbenzene
+CHEBI:38582,2,difluorobenzene
+CHEBI:37910,2,indene
+CHEBI:35428,2,ortho-fused bicyclic hydrocarbon
+CHEBI:35293,2,fused compound
+CHEBI:33637,2,ortho-fused compound
+CHEBI:55465,2,7-hydroxyisoflavones
+CHEBI:25961,2,phenanthrenes
+CHEBI:87113,2,antibiotic antifungal drug
+CHEBI:18274,2,2'-deoxyribonucleoside
+CHEBI:25241,2,methoxyflavone
+CHEBI:35275,2,S-glycosyl compound
+CHEBI:26273,2,proline derivative
+CHEBI:79020,2,"alpha,beta-unsaturated monocarboxylic acid"
+CHEBI:24689,2,hydroxycinnamic acid
+CHEBI:23252,2,cinnamic acids
+CHEBI:52221,2,isothiocyanate
+CHEBI:36840,2,16-hydroxy steroid
+CHEBI:35350,2,hydroxy steroid
+CHEBI:17354,2,16beta-hydroxy steroid
+CHEBI:24921,2,isoquinoline alkaloid
+CHEBI:22750,2,benzylisoquinoline alkaloid
+CHEBI:24436,2,guanidines
+CHEBI:60926,2,amino monosaccharide
+CHEBI:63697,2,pyrrolidinopiperidine
+CHEBI:23690,2,dicarboxylic acid amide
+CHEBI:35735,2,dicarboxylic acid monoamide
+CHEBI:37488,2,trihydroxyanthraquinone
+CHEBI:20485,2,4-pyridones
+CHEBI:38183,2,pyridone
+CHEBI:21545,2,N-acetyl-L-amino acid
+CHEBI:16733,2,D-alpha-amino acid
+CHEBI:37111,2,gallium molecular entity
+CHEBI:31577,2,ethylenediamine derivative
+CHEBI:22478,2,amino alcohol
+CHEBI:76578,2,diradylglycerol
+CHEBI:47778,2,glyceride
+CHEBI:35281,2,onium betaine
+CHEBI:35741,2,glycerolipid
+CHEBI:18035,2,diglyceride
+CHEBI:16646,2,carbohydrate
+CHEBI:36027,2,stilbenol
+CHEBI:21575,2,N-acetyl-amino acid
+CHEBI:21644,2,N-acyl-L-amino acid
+CHEBI:25235,2,monomethoxybenzene
+CHEBI:134251,2,guaiacols
+CHEBI:22195,2,acetyl-amino acid
+CHEBI:37948,2,oxaspiro compound
+CHEBI:22198,2,acetylcysteine
+CHEBI:23509,2,cysteine derivative
+CHEBI:51569,2,N-acyl-amino acid
+CHEBI:38670,2,pyrrolopyrimidine
+CHEBI:84133,2,D-serine derivative
+CHEBI:47777,2,"1,3-diglyceride"
+CHEBI:35868,2,hydroxy monocarboxylic acid
+CHEBI:25872,2,pentacyclic triterpenoid
+CHEBI:38025,2,hydroxylamine O-sulfonic acid
+CHEBI:63534,2,monoamine
+CHEBI:64365,2,aralkylamino compound
+CHEBI:33566,2,catechols
+CHEBI:22905,2,blasticidin
+CHEBI:142921,2,3-phenylprop-2-enal
+CHEBI:17478,2,aldehyde
+CHEBI:23245,2,cinnamaldehydes
+CHEBI:51688,2,enal
+CHEBI:33406,2,organoarsenic compound
+CHEBI:51718,2,"alpha,beta-unsaturated aldehyde"
+CHEBI:32114,2,salicylamide
+CHEBI:53443,2,salicylamides
+CHEBI:86494,2,botanical anti-fungal agent
+CHEBI:143084,2,organometalloidal compound
+CHEBI:50359,2,naphthoisochromene
+CHEBI:22632,2,arsenic molecular entity
+CHEBI:50752,2,pyrazolotriazole
+CHEBI:26878,2,tertiary alcohol
+CHEBI:51751,2,enamide
+CHEBI:51750,2,"alpha,beta-unsaturated carboxylic acid amide"
+CHEBI:23247,2,cinnamamides
+CHEBI:48652,2,"1,3-thiazolemonocarboxylic acid"
+CHEBI:74818,2,heteroaryl hydroxy compound
+CHEBI:24745,2,hydroxypyridine
+CHEBI:38532,2,hydrazone
+CHEBI:32876,2,tertiary amine
+CHEBI:26254,2,prenylnaphthoquinone
+CHEBI:25185,2,menaquinones
+CHEBI:53468,2,salicylanilides
+CHEBI:68472,2,pyrimidine deoxyribonucleoside
+CHEBI:48441,2,"pyrimidine 2',3'-dideoxyribonucleoside"
+CHEBI:47945,2,"2',3'-dideoxyribonucleoside"
+CHEBI:132124,2,"1,4-benzoquinones"
+CHEBI:22680,2,azide
+CHEBI:36816,2,oxime O-ether
+CHEBI:16389,2,ubiquinones
+CHEBI:87039,2,bridged diphenyl fungicide
+CHEBI:60644,2,bridged diphenyl antifungal agent
+CHEBI:60194,2,peptide cation
+CHEBI:26961,2,thiophenes
+CHEBI:48865,2,thiadiazolidine
+CHEBI:35681,2,secondary alcohol
+CHEBI:2468,2,secondary alpha-hydroxy ketone
+CHEBI:83925,2,non-proteinogenic alpha-amino acid
+CHEBI:71644,2,lantibiotic
+CHEBI:46908,2,imidazopyridine
+CHEBI:22729,2,benzoquinones
+CHEBI:22565,2,ansamycin
+CHEBI:26455,2,pyrroles
+CHEBI:46722,2,carbonate ester
+CHEBI:23016,2,carbonates
+CHEBI:47923,2,tripeptide
+CHEBI:38064,2,heteroarenecarboxylate ester
+CHEBI:80291,2,aliphatic nitrile
+CHEBI:33653,2,aliphatic compound
+CHEBI:35285,2,iminium betaine
+CHEBI:22888,2,biphenyls
+CHEBI:37773,2,organic phosphoramidate
+CHEBI:38932,2,pyridopyrimidine
+CHEBI:71647,2,type B lantibiotic
+CHEBI:48036,2,N-glycosylpyrrolopyrimidine
+CHEBI:83812,2,non-proteinogenic amino acid derivative
+CHEBI:38777,2,azetidines
+CHEBI:31889,2,nadifloxacin
+CHEBI:26649,2,serine derivative
+CHEBI:50695,2,monobactam
+CHEBI:25572,2,nocardicin
+CHEBI:24983,2,ketoxime
+CHEBI:26179,2,polyether antibiotic
+CHEBI:83824,2,L-cysteine derivative
+CHEBI:46812,2,"1,3-oxazoles"
+CHEBI:38297,2,thiabicycloalkane
+CHEBI:51570,2,biotins
+CHEBI:38774,2,hydroxyquinoline
+CHEBI:38775,2,monohydroxyquinoline
+CHEBI:157681,2,tomaymycin
+CHEBI:35313,2,hexoside
+CHEBI:26069,2,phosphonic acids
+CHEBI:51915,2,indolocarbazole
+CHEBI:72600,2,spiroketal
+CHEBI:59779,2,cyclic ketal
+CHEBI:33555,2,arenesulfonic acid
+CHEBI:35267,2,quaternary ammonium ion
+CHEBI:55504,2,carbacephem
+CHEBI:25903,2,peptide antibiotic
+CHEBI:86322,2,alkaloid antibiotic
+CHEBI:156508,2,dithiolopyrrole
+CHEBI:156449,2,dithiolopyrrolone antibiotic
+CHEBI:38770,2,cinnolines
+CHEBI:27024,2,toluenes
+CHEBI:131437,2,pyrrolobenzodiazepine
+CHEBI:23763,2,pyrroline
+CHEBI:36244,1,dicarboxylic acid monoester
+CHEBI:46640,1,diketone
+CHEBI:50018,1,glycosyloxyflavone
+CHEBI:76424,1,quercetin O-glycoside
+CHEBI:22495,1,aminobenzoic acid
+CHEBI:25389,1,monohydroxybenzoic acid
+CHEBI:38077,1,polypyrrole
+CHEBI:47882,1,cyclic polypyrrole
