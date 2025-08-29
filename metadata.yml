@@ -1,6 +1,6 @@
 Identifier: eos19mt
 Slug: chebifier-antibiotic
-Status: In progress
+Status: Ready
 Title: Antibiotic classes prediction
 Description: An automated classification of chemicals in the ChEBI ontology 
   based on a neuro-symbolic AI technique that harnesses the ontology itself to 
@@ -33,6 +33,18 @@ Publication: https://pubs.rsc.org/en/content/articlehtml/2024/dd/d3dd00238a
 Source Code: https://github.com/ChEB-AI/python-chebifier
 License: GPL-3.0-only
 Incorporation Date: '2025-08-26'
+Last Packaging Date: '2025-08-29'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos19mt.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos19mt
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 1735.0
 Environment Size: 7657.0
+Image Size: 8558.11
+Computational Performance 1: 61.34
+Computational Performance 2: 54.85
+Computational Performance 3: 101.93
+Computational Performance 4: 868.75
+Computational Performance 5: -1.0
