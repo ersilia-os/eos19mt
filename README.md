@@ -2,6 +2,7 @@
 
 An automated classification of chemicals in the ChEBI ontology based on a neuro-symbolic AI technique that harnesses the ontology itself to create the learning system and enables the classification of coumpounds into GARDP antibiotic classes.
 
+This model was incorporated on 2025-08-26.
 
 
 ## Information
