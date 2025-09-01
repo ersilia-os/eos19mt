@@ -39,7 +39,7 @@ Below are the **Output Columns** of the model:
 | b_lactamase_inhibitors | integer | high | Presence of ChEBI predicted parents associated with β-lactamase inhibitors |
 | b_lactams_all | integer | high | Presence of ChEBI predicted parents associated with β-lactams (all) |
 
-_10 of 40 columns are shown_
+_10 of 39 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `Internal`
