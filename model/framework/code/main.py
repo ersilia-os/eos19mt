@@ -43,7 +43,7 @@ mapping_features_to_functions = {
     "peroxides": peroxides,
     "pyridinium": pyridinium,
     "antifungal": antifungal,
-    "heterocyclic_antibiotic": heterocyclic_antibiotic,
+    # "heterocyclic_antibiotic": heterocyclic_antibiotic,
     "quinolones": quinolones,
     "penams": penams,
     "anthracyclines": anthracyclines,

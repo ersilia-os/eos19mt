@@ -18,7 +18,6 @@ biguanides,integer,high,Presence of ChEBI predicted parents associated with Bigu
 depsipeptides,integer,high,Presence of ChEBI predicted parents associated with Depsipeptides
 fluoroquinolones,integer,high,Presence of ChEBI predicted parents associated with (Fluoro)Quinolones
 glycopeptides,integer,high,Presence of ChEBI predicted parents associated with Glycopeptides
-heterocyclic_antibiotic,integer,high,Presence of ChEBI predicted parents associated with Heterocyclic antibiotics
 hydrazides,integer,high,Presence of ChEBI predicted parents associated with Hydrazides
 lc_fatty_acids,integer,high,Presence of ChEBI predicted parents associated with Long-chain fatty acids
 lipopeptides,integer,high,Presence of ChEBI predicted parents associated with Lipopeptides
