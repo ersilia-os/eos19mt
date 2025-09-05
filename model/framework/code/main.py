@@ -1,6 +1,7 @@
 # imports
 import os
 import sys
+import csv
 import json
 import pandas as pd
 from criteria import *
@@ -59,7 +60,20 @@ from chebifier.cli_adapted import predict
 # parse arguments
 input_file = sys.argv[1]
 output_file = sys.argv[2]
+tmp_file = output_file.replace(".csv", '_tmp.csv')
 output_file_chebified = output_file.replace(".csv", "_chebified.json")
+
+# read smiles and create tmp file
+with open(input_file, "r") as f:
+    reader = csv.reader(f)
+    next(reader)  # skip header
+    smiles_list = [r[0] for r in reader]
+
+with open(tmp_file, "w", newline="") as f:
+    writer = csv.writer(f)
+    writer.writerow(["input"])
+    for s in smiles_list:
+        writer.writerow([s])
 
 # change working directory before running the model
 os.chdir(os.path.join(root, "python-chebifier"))
@@ -68,7 +82,7 @@ os.chdir(os.path.join(root, "python-chebifier"))
 predict(
     ensemble_config=os.path.join(root, "..", "..", "checkpoints", "ensemble_config.yml"),
     smiles=(),  # none inline
-    smiles_file=os.path.join(root, "..", input_file),
+    smiles_file=os.path.join(root, "..", tmp_file),
     output=os.path.join(root, "..", output_file_chebified),
     ensemble_type="wmv-f1",
     chebi_version=241,
@@ -76,8 +90,6 @@ predict(
     resolve_inconsistencies=True
 )
 
-# read input smiles from .csv file
-smiles = [i.strip() for i in open(os.path.join(root, "..", input_file), "r").readlines()[1:]]
 
 # read columns file
 columns = pd.read_csv(os.path.join(root, "..", "fit", 'data', "Final_column_criteria.csv"))
@@ -91,7 +103,7 @@ features = sorted(features_to_classes)
 # read json output
 output = json.load(open(os.path.join(root, "..", output_file_chebified)))
 output_content = []
-for smi in smiles:
+for smi in smiles_list:
 
     # chebifier
     r = ["CHEBI:" + o for o in sorted(output[smi])]
@@ -106,5 +118,6 @@ output_content = pd.DataFrame(output_content, columns=features)
 output_content.to_csv(os.path.join(root, "..", output_file), sep=',', index=False)
 
 # remove json output
-os.remove(os.path.join(root, "..", output_file_chebified.replace(".csv", ".json")))
+os.remove(os.path.join(root, "..", output_file_chebified))
+os.remove(os.path.join(root, "..", tmp_file))
 
