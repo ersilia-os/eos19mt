@@ -44,8 +44,8 @@ DockerHub: https://hub.docker.com/r/ersiliaos/eos19mt
 Docker Architecture:
   - AMD64
   - ARM64
-Model Size: 873.0
-Environment Size: 7661.0
+Model Size: 511.0
+Environment Size: 7679.0
 Image Size: 8562.14
 Computational Performance 1: 61.99
 Computational Performance 2: 56.6
