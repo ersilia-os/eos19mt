@@ -1,0 +1,73 @@
+chebi_id,name,used_in_functions
+CHEBI:15841,polypeptide,polypeptides
+CHEBI:15904,long-chain fatty acid,lc_fatty_acids
+CHEBI:17334,penicillin,b_lactams_penicillins
+CHEBI:22479,amino cyclitol glycoside,aminoglycosides_aminocyclitols
+CHEBI:22507,aminoglycoside antibiotic,aminoglycosides_aminocyclitols
+CHEBI:22565,ansamycin,ansamycins_rifamycins_macrolides
+CHEBI:22632,arsenic molecular entity,arsenic_cpds
+CHEBI:23066,cephalosporin,b_lactams_cephalosporins_cephems
+CHEBI:23643,depsipeptide,depsipeptides
+CHEBI:23765,quinolone,quinolones
+CHEBI:24396,glycopeptide,glycopeptides
+CHEBI:24531,heterocyclic antibiotic,heterocyclic_antibiotic
+CHEBI:25105,macrolide antibiotic,ansamycins_rifamycins_macrolides; polyketides_type_I
+CHEBI:25106,macrolide,ansamycins_rifamycins_macrolides; polyketides_type_I
+CHEBI:25865,penicillanic acids,b_lactams_penicillins
+CHEBI:25940,peroxides,peroxides
+CHEBI:26069,phosphonic acids,phosphonic_acid_der
+CHEBI:26188,polyketide,polyketides_type_I; polyketides_type_II
+CHEBI:26195,polyphenol,phenols
+CHEBI:26512,quinolinemonocarboxylic acid,quinolines
+CHEBI:26513,quinolines,quinolines
+CHEBI:26580,rifamycins,ansamycins_rifamycins_macrolides
+CHEBI:26895,tetracyclines,polyketides_type_II
+CHEBI:27933,β-lactam antibiotic,b_lactams_all
+CHEBI:33406,organoarsenic compound,arsenic_cpds
+CHEBI:33407,arsenic oxoacid,arsenic_cpds
+CHEBI:33838,nucleoside,nucleosides
+CHEBI:33853,phenols,phenols
+CHEBI:35213,cyclodepsipeptide,depsipeptides
+CHEBI:35267,quaternary ammonium ion,quat_ammonium_cpds
+CHEBI:35273,quaternary ammonium salt,quat_ammonium_cpds
+CHEBI:35358,sulfonamide,sulfonamides
+CHEBI:35362,hydrazide,hydrazides
+CHEBI:35625,EC 3.5.2.6 (β-lactamase) inhibitor,b_lactamase_inhibitors
+CHEBI:35627,β-lactam,b_lactams_all
+CHEBI:35992,penams,penams
+CHEBI:36709,aminoquinoline,quinolines
+CHEBI:36974,aminoglycoside phosphate,aminoglycosides_aminocyclitols
+CHEBI:37588,phosphonic acid derivative,phosphonic_acid_der
+CHEBI:38012,aminoglycoside sulfate salt,aminoglycosides_aminocyclitols
+CHEBI:38188,pyridinium salt,pyridinium
+CHEBI:38311,cephem,b_lactams_cephalosporins_cephems
+CHEBI:38314,pyrazines,pyrazines
+CHEBI:38338,aminopyrimidine,aminopyrimidines_trimethoprim_der
+CHEBI:38774,hydroxyquinoline,quinolines
+CHEBI:38775,monohydroxyquinoline,quinolines
+CHEBI:38921,pyridoquinoline,quinolines
+CHEBI:45924,trimethoprim,aminopyrimidines_trimethoprim_der
+CHEBI:46633,carbapenems,b_lactams_carbapenems
+CHEBI:46895,lipopeptide,lipopeptides
+CHEBI:47779,aminoglycoside,aminoglycosides_aminocyclitols
+CHEBI:48120,anthracycline,anthracyclines
+CHEBI:50334,pyridinium ion,pyridinium
+CHEBI:50695,monobactam,b_lactams_monobactams
+CHEBI:51212,penicillanic acid ester,b_lactams_penicillins
+CHEBI:52916,phenylsulfonyl group,benzenesulfonyls
+CHEBI:53662,biguanides,biguanides
+CHEBI:53665,oxazinoquinoline,quinolines
+CHEBI:55374,oxazolidinone,oxazolidinones
+CHEBI:55504,carbacephem,b_lactams_cephalosporins_cephems
+CHEBI:55506,oxacephem,b_lactams_cephalosporins_cephems
+CHEBI:57560,long-chain fatty acid anion,lc_fatty_acids
+CHEBI:59554,medium-chain fatty acid,mc_fatty_acids
+CHEBI:59558,medium-chain fatty acid anion,mc_fatty_acids
+CHEBI:61689,amino cyclitol,aminoglycosides_aminocyclitols
+CHEBI:83821,amino-acid derivative,amino_acid_der
+CHEBI:86324,quinolone antibiotic,quinolones
+CHEBI:86478,antibiotic antifungal agent,antifungal
+CHEBI:87211,fluoroquinolone antibiotic,fluoroquinolones
+CHEBI:87228,sulfonamide antibiotic,sulfonamides
+CHEBI:87230,nitrofuran antibiotic,nitrofurans
+CHEBI:145565,macrolide lactam,ansamycins_rifamycins_macrolides

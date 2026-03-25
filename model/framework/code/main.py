@@ -5,6 +5,7 @@ import csv
 import json
 import pandas as pd
 from criteria import *
+from cli_adapted import predict
 
 
 mapping_features_to_functions = {
@@ -40,11 +41,9 @@ mapping_features_to_functions = {
     "pyrazines": pyrazines,
     "biguanides": biguanides,
     "depsipeptides": depsipeptides,
-    "benzenesulfonyls": benzenesulfonyls,
     "peroxides": peroxides,
     "pyridinium": pyridinium,
     "antifungal": antifungal,
-    # "heterocyclic_antibiotic": heterocyclic_antibiotic,
     "quinolones": quinolones,
     "penams": penams,
     "anthracyclines": anthracyclines,
@@ -52,10 +51,6 @@ mapping_features_to_functions = {
 
 # current file directory
 root = os.path.dirname(os.path.abspath(__file__))
-
-# import chebifier
-sys.path.insert(0, os.path.join(root, "python-chebifier"))
-from chebifier.cli_adapted import predict
 
 # parse arguments
 input_file = sys.argv[1]
@@ -71,21 +66,22 @@ with open(input_file, "r") as f:
 
 with open(tmp_file, "w", newline="") as f:
     writer = csv.writer(f)
-    writer.writerow(["input"])
+    writer.writerow(["smiles"])
     for s in smiles_list:
         writer.writerow([s])
 
-# change working directory before running the model
-os.chdir(os.path.join(root, "python-chebifier"))
+# change working directory to a writable location before running the model
+# (chemlog_extra writes relative path data/ from cwd at init time,
+#  which fails if cwd is inside a read-only container image)
+os.chdir("/tmp")
 
 # run the model
 predict(
     ensemble_config=os.path.join(root, "..", "..", "checkpoints", "ensemble_config.yml"),
     smiles=(),  # none inline
-    smiles_file=os.path.join(root, "..", tmp_file),
-    output=os.path.join(root, "..", output_file_chebified),
+    smiles_file=tmp_file,
+    output=output_file_chebified,
     ensemble_type="wmv-f1",
-    chebi_version=241,
     use_confidence=True,
     resolve_inconsistencies=True
 )
@@ -96,28 +92,24 @@ columns = pd.read_csv(os.path.join(root, "..", "fit", 'data', "Final_column_crit
 features_to_classes = {i: [j, k] for i,j,k in zip(columns['Column name'], columns["Class"], columns['CHEBI ids'])}
 features = sorted(features_to_classes)
 
-# for feature in features:
-#     print(",".join([feature, "integer", "high", "Presence of ChEBI predicted parents associated with " + 
-#                     str(features_to_classes[feature][0])]))  # + " - '" + str(features_to_classes[feature][1]) + "'"]))
+# read chebifier output and map to antibiotic classes
+with open(output_file_chebified) as f:
+    chebifier_output = json.load(f)
 
-# read json output
-output = json.load(open(os.path.join(root, "..", output_file_chebified)))
 output_content = []
 for smi in smiles_list:
-
-    # chebifier
-    r = ["CHEBI:" + o for o in sorted(output[smi])]
-    r = set(r)
-
-    # eos19mt
-    eos19mt_output = []
-    fp = [mapping_features_to_functions[i](r) for i in features]
+    chebi_predictions = chebifier_output.get(smi)
+    if chebi_predictions is None:
+        fp = [None] * len(features)
+    else:
+        chebi_ids = set("CHEBI:" + o for o in chebi_predictions)
+        fp = [mapping_features_to_functions[i](chebi_ids) for i in features]
     output_content.append(fp)
 
 output_content = pd.DataFrame(output_content, columns=features)
-output_content.to_csv(os.path.join(root, "..", output_file), sep=',', index=False)
+output_content.to_csv(output_file, sep=',', index=False)
 
-# remove json output
-os.remove(os.path.join(root, "..", output_file_chebified))
-os.remove(os.path.join(root, "..", tmp_file))
+# remove tmp files
+os.remove(output_file_chebified)
+os.remove(tmp_file)
 

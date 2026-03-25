@@ -13,7 +13,6 @@ b_lactams_carbapenems,integer,high,Presence of ChEBI predicted parents associate
 b_lactams_cephalosporins_cephems,integer,high,Presence of ChEBI predicted parents associated with β-lactams (cephalosporins incl. cephems)
 b_lactams_monobactams,integer,high,Presence of ChEBI predicted parents associated with β-lactams (monobactams)
 b_lactams_penicillins,integer,high,Presence of ChEBI predicted parents associated with β-lactams (penicillins)
-benzenesulfonyls,integer,high,Presence of ChEBI predicted parents associated with Benzenesulfonyls
 biguanides,integer,high,Presence of ChEBI predicted parents associated with Biguanides
 depsipeptides,integer,high,Presence of ChEBI predicted parents associated with Depsipeptides
 fluoroquinolones,integer,high,Presence of ChEBI predicted parents associated with (Fluoro)Quinolones

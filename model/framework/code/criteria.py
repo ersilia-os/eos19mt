@@ -1,5 +1,3 @@
-import numpy as np
-
 def aminocoumarins(chebis):
     if "CHEBI:85128" in chebis:
         return 1
@@ -37,7 +35,7 @@ def b_lactams_cephalosporins_cephems(chebis):
     
 def b_lactams_penicillins(chebis):
     if ("CHEBI:17334" in chebis or "CHEBI:25865" in chebis or
-        "CHEBI:88187" in chebis or "CHEBI:51212" in chebis):
+        "CHEBI:51212" in chebis):
         return 1
     else:
         return 0
@@ -55,7 +53,7 @@ def b_lactamase_inhibitors(chebis):
         return 0
     
 def b_lactams_all(chebis):
-    if "CHEBI:35627" in chebis or "CHEBI:27933" in chebis or "CHEBI:88225" in chebis:
+    if "CHEBI:35627" in chebis or "CHEBI:27933" in chebis:
         return 1
     else:
         return 0
@@ -150,7 +148,7 @@ def sulfonamides(chebis):
     
 def arsenic_cpds(chebis):
     if ("CHEBI:33406" in chebis or "CHEBI:22632" in chebis or
-        "CHEBI:33407" in chebis or "CHEBI:27563" in chebis):
+        "CHEBI:33407" in chebis):
         return 1
     else:
         return 0
@@ -203,12 +201,6 @@ def depsipeptides(chebis):
     else:
         return 0
     
-def benzenesulfonyls(chebis):
-    if "CHEBI:52916" in chebis:
-        return 1
-    else:
-        return 0
-    
 def peroxides(chebis):
     if "CHEBI:25940" in chebis:
         return 1
@@ -223,12 +215,6 @@ def pyridinium(chebis):
     
 def antifungal(chebis):
     if "CHEBI:86478" in chebis:
-        return 1
-    else:
-        return 0
-    
-def heterocyclic_antibiotic(chebis):
-    if "CHEBI:24531" in chebis:
         return 1
     else:
         return 0
