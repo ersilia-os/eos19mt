@@ -1,6 +1,6 @@
 # Antibiotic classes prediction
 
-An automated classification of chemicals in the ChEBI ontology based on a neuro-symbolic AI technique that harnesses the ontology itself to create the learning system and enables the classification of coumpounds into GARDP antibiotic classes.
+An automated classification of chemicals in the ChEBI ontology based on a neuro-symbolic AI technique that harnesses the ontology itself to create the learning system and enables the classification of compounds into 38 GARDP antibiotic classes (https://revive.gardp.org/resource/classes-of-antibiotics/?cf=encyclopaedia). Benzenesulfonyls and heterocyclic antibiotics classes are not included due to lack of suitable ChEBI compound-class mappings.
 
 This model was incorporated on 2025-08-26.Last packaged on 2025-09-05.
 
@@ -21,7 +21,7 @@ This model was incorporated on 2025-08-26.Last packaged on 2025-09-05.
 - **Input Dimension:** `1`
 
 ### Output
-- **Output Dimension:** `1`
+- **Output Dimension:** `38`
 - **Output Consistency:** `Fixed`
 - **Interpretation:** Presence (1) or absence (0) of ChEBI predicted parents associated with pre-defined GARDP-inspired antibiotic classes
 
@@ -39,7 +39,7 @@ Below are the **Output Columns** of the model:
 | b_lactamase_inhibitors | integer | high | Presence of ChEBI predicted parents associated with β-lactamase inhibitors |
 | b_lactams_all | integer | high | Presence of ChEBI predicted parents associated with β-lactams (all) |
 
-_10 of 39 columns are shown_
+_10 of 38 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `Internal`
