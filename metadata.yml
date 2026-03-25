@@ -2,10 +2,11 @@ Identifier: eos19mt
 Slug: chebifier-antibiotic
 Status: Ready
 Title: Antibiotic classes prediction
-Description: An automated classification of chemicals in the ChEBI ontology
-  based on a neuro-symbolic AI technique that harnesses the ontology itself to
-  create the learning system and enables the classification of compounds into
-  38 GARDP antibiotic classes (https://revive.gardp.org/resource/classes-of-antibiotics/?cf=encyclopaedia).
+Description: An automated classification of chemicals in the ChEBI ontology 
+  based on a neuro-symbolic AI technique that harnesses the ontology itself to 
+  create the learning system and enables the classification of compounds into 38
+  GARDP antibiotic classes 
+  (https://revive.gardp.org/resource/classes-of-antibiotics/?cf=encyclopaedia). 
   Benzenesulfonyls and heterocyclic antibiotics classes are not included due to 
   lack of suitable ChEBI compound-class mappings.
 Deployment:
