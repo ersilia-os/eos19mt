@@ -2,7 +2,7 @@
 
 An automated classification of chemicals in the ChEBI ontology based on a neuro-symbolic AI technique that harnesses the ontology itself to create the learning system and enables the classification of compounds into 38 GARDP antibiotic classes (https://revive.gardp.org/resource/classes-of-antibiotics/?cf=encyclopaedia). Benzenesulfonyls and heterocyclic antibiotics classes are not included due to lack of suitable ChEBI compound-class mappings.
 
-This model was incorporated on 2025-08-26.Last packaged on 2025-09-05.
+This model was incorporated on 2025-08-26.Last packaged on 2026-03-25.
 
 ## Information
 ### Identifiers
@@ -44,17 +44,17 @@ _10 of 38 columns are shown_
 - **Source:** `Local`
 - **Source Type:** `Internal`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos19mt](https://hub.docker.com/r/ersiliaos/eos19mt)
-- **Docker Architecture:** `AMD64`, `ARM64`
+- **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos19mt.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos19mt.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `511`
 - **Environment Size (Mb):** `7679`
-- **Image Size (Mb):** `8562.14`
+- **Image Size (Mb):** `8085.35`
 
 **Computational Performance (seconds):**
-- 10 inputs: `61.99`
-- 100 inputs: `103.19`
+- 10 inputs: `144.14`
+- 100 inputs: `180.38`
 - 10000 inputs: `-1`
 
 ### References
