@@ -51,7 +51,6 @@ def predict(
     ensemble = ENSEMBLES[ensemble_type](
         config,
         resolve_inconsistencies=resolve_inconsistencies,
-        use_confidence=use_confidence,
     )
 
     # Collect SMILES strings from arguments and/or file
@@ -64,21 +63,23 @@ def predict(
         print("No SMILES strings provided. Use --smiles or --smiles-file options.")
         return
 
-    # Make predictions
-    predictions = ensemble.predict_smiles_list(smiles_list)
+    # Make predictions in batches to avoid OOM with large inputs
+    BATCH_SIZE = 100
+    all_predictions = {}
+    for i in range(0, len(smiles_list), BATCH_SIZE):
+        batch = smiles_list[i:i + BATCH_SIZE]
+        batch_preds = ensemble.predict_smiles_list(batch, use_confidence=use_confidence)
+        for smi, pred in zip(batch, batch_preds):
+            all_predictions[smi] = pred
 
     if output:
         import json
 
         with open(output, "w") as f:
-            json.dump(
-                {smiles: pred for smiles, pred in zip(smiles_list, predictions)},
-                f,
-                indent=2,
-            )
+            json.dump(all_predictions, f, indent=2)
 
     else:
-        for i, (smiles, prediction) in enumerate(zip(smiles_list, predictions)):
+        for smiles, prediction in all_predictions.items():
             print(f"Result for: {smiles}")
             if prediction:
                 print(f"  Predicted classes: {', '.join(map(str, prediction))}")

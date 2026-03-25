@@ -3,7 +3,37 @@ import os
 import sys
 import csv
 import json
+import yaml
+import pickle
 import pandas as pd
+
+# current file directory (needed before patching)
+root = os.path.dirname(os.path.abspath(__file__))
+checkpoints_dir = os.path.abspath(os.path.join(root, "..", "..", "checkpoints"))
+
+# Patch chebifier to load chebi_graph.pkl from local checkpoints instead of HuggingFace.
+# Must happen before cli_adapted is imported (which triggers base_ensemble import).
+import chebifier.ensemble.base_ensemble as _base_ensemble
+_orig_load_chebi_graph = _base_ensemble.load_chebi_graph
+def _local_load_chebi_graph(filename=None):
+    local = os.path.join(checkpoints_dir, "chebi_graph.pkl")
+    if filename is None and os.path.isfile(local):
+        print("Loading ChEBI graph from local checkpoints...")
+        return pickle.load(open(local, "rb"))
+    return _orig_load_chebi_graph(filename)
+_base_ensemble.load_chebi_graph = _local_load_chebi_graph
+
+_orig_get_disjoint_files = _base_ensemble.get_disjoint_files
+def _local_get_disjoint_files():
+    local = [
+        os.path.join(checkpoints_dir, "disjoint_chebi.csv"),
+        os.path.join(checkpoints_dir, "disjoint_additional.csv"),
+    ]
+    if all(os.path.isfile(f) for f in local):
+        return local
+    return _orig_get_disjoint_files()
+_base_ensemble.get_disjoint_files = _local_get_disjoint_files
+
 from criteria import *
 from cli_adapted import predict
 
@@ -49,14 +79,11 @@ mapping_features_to_functions = {
     "anthracyclines": anthracyclines,
 }
 
-# current file directory
-root = os.path.dirname(os.path.abspath(__file__))
-
 # parse arguments
-input_file = sys.argv[1]
-output_file = sys.argv[2]
-tmp_file = output_file.replace(".csv", '_tmp.csv')
-output_file_chebified = output_file.replace(".csv", "_chebified.json")
+input_file = os.path.abspath(sys.argv[1])
+output_file = os.path.abspath(sys.argv[2])
+tmp_file = os.path.abspath(output_file.replace(".csv", '_tmp.csv'))
+output_file_chebified = os.path.abspath(output_file.replace(".csv", "_chebified.json"))
 
 # read smiles and create tmp file
 with open(input_file, "r") as f:
@@ -70,6 +97,45 @@ with open(tmp_file, "w", newline="") as f:
     for s in smiles_list:
         writer.writerow([s])
 
+# generate ensemble config pointing to local checkpoint files (avoids HuggingFace downloads)
+local_ensemble_config = {
+    "electra": {
+        "type": "electra",
+        "ckpt_path": os.path.join(checkpoints_dir, "14ko0zcf_epoch=193.ckpt"),
+        "target_labels_path": os.path.join(checkpoints_dir, "electra_classes.txt"),
+        "classwise_weights_path": os.path.join(checkpoints_dir, "metrics_electra_14ko0zcf_80-10-10_short.json"),
+    },
+    "resgated": {
+        "type": "resgated",
+        "ckpt_path": os.path.join(checkpoints_dir, "0ps1g189_epoch=122.ckpt"),
+        "target_labels_path": os.path.join(checkpoints_dir, "resgated_classes.txt"),
+        "classwise_weights_path": os.path.join(checkpoints_dir, "metrics_0ps1g189_80-10-10_short.json"),
+        "molecular_properties": [
+            "chebai_graph.preprocessing.properties.AtomType",
+            "chebai_graph.preprocessing.properties.NumAtomBonds",
+            "chebai_graph.preprocessing.properties.AtomCharge",
+            "chebai_graph.preprocessing.properties.AtomAromaticity",
+            "chebai_graph.preprocessing.properties.AtomHybridization",
+            "chebai_graph.preprocessing.properties.AtomNumHs",
+            "chebai_graph.preprocessing.properties.BondType",
+            "chebai_graph.preprocessing.properties.BondInRing",
+            "chebai_graph.preprocessing.properties.BondAromaticity",
+            "chebai_graph.preprocessing.properties.RDKit2DNormalized",
+        ],
+    },
+    "chemlog_peptides": {"type": "chemlog_peptides"},
+    "chemlog_element": {"type": "chemlog_element"},
+    "chemlog_organox": {"type": "chemlog_organox"},
+    "c3p": {
+        "type": "c3p",
+        "classwise_weights_path": os.path.join(checkpoints_dir, "c3p_trust.json"),
+    },
+    "chebi_lookup": {"type": "chebi_lookup"},
+}
+local_ensemble_config_path = "/tmp/ensemble_config_local.yml"
+with open(local_ensemble_config_path, "w") as f:
+    yaml.dump(local_ensemble_config, f)
+
 # change working directory to a writable location before running the model
 # (chemlog_extra writes relative path data/ from cwd at init time,
 #  which fails if cwd is inside a read-only container image)
@@ -77,7 +143,7 @@ os.chdir("/tmp")
 
 # run the model
 predict(
-    ensemble_config=os.path.join(root, "..", "..", "checkpoints", "ensemble_config.yml"),
+    ensemble_config=local_ensemble_config_path,
     smiles=(),  # none inline
     smiles_file=tmp_file,
     output=output_file_chebified,
