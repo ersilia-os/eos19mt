@@ -42,8 +42,8 @@ Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos19mt.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos19mt
 Docker Architecture: AMD64
-Model Size: 511.0
-Environment Size: 7679.0
+Model Size: 855.0
+Environment Size: 7676.0
 Image Size: 8085.35
 Computational Performance 1: 144.14
 Computational Performance 2: 139.88
