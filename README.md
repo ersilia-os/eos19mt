@@ -59,7 +59,7 @@ _10 of 38 columns are shown_
 
 ### References
 - **Source Code**: [https://github.com/ChEB-AI/python-chebifier](https://github.com/ChEB-AI/python-chebifier)
-- **Publication**: [https://pubs.rsc.org/en/content/articlehtml/2024/dd/d3dd00238a](https://pubs.rsc.org/en/content/articlehtml/2024/dd/d3dd00238a)
+- **Publication**: [https://doi.org/10.1038/s41467-025-62717-7](https://doi.org/10.1038/s41467-025-62717-7)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2025`
 - **Ersilia Contributor:** [arnaucoma24](https://github.com/arnaucoma24)
