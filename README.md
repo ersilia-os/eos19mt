@@ -1,6 +1,6 @@
 # Antibiotic classes prediction
 
-An automated classification of chemicals in the ChEBI ontology based on a neuro-symbolic AI technique that harnesses the ontology itself to create the learning system and enables the classification of compounds into 38 GARDP antibiotic classes (https://revive.gardp.org/resource/classes-of-antibiotics/?cf=encyclopaedia). Benzenesulfonyls and heterocyclic antibiotics classes are not included due to lack of suitable ChEBI compound-class mappings.
+Assigns a molecule to antibiotic structural classes such as aminoglycosides, beta-lactams and polyketides, expressed as presence or absence across 38 categories inspired by the GARDP classification. Predictions rest on Chebifier, a neuro-symbolic approach from Glauer and colleagues that classifies chemicals into the ChEBI ontology by exploiting the ontology's own hierarchy during learning, allowing it to extend as ChEBI grows. Classes are inferred from structure alone, so an assignment reflects structural resemblance rather than demonstrated antibacterial activity.
 
 This model was incorporated on 2025-08-26.Last packaged on 2026-04-20.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2025-08-26.Last packaged on 2026-04-20.
 ### Output
 - **Output Dimension:** `38`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Presence (1) or absence (0) of ChEBI predicted parents associated with pre-defined GARDP-inspired antibiotic classes
+- **Interpretation:** Presence or absence of each of 38 antibiotic structural classes inferred from ChEBI ontology parents.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
@@ -59,13 +59,13 @@ _10 of 38 columns are shown_
 
 ### References
 - **Source Code**: [https://github.com/ChEB-AI/python-chebifier](https://github.com/ChEB-AI/python-chebifier)
-- **Publication**: [https://doi.org/10.1038/s41467-025-62717-7](https://doi.org/10.1038/s41467-025-62717-7)
+- **Publication**: [https://doi.org/10.1039/d3dd00238a](https://doi.org/10.1039/d3dd00238a)
 - **Publication Type:** `Peer reviewed`
-- **Publication Year:** `2025`
+- **Publication Year:** `2024`
 - **Ersilia Contributor:** [arnaucoma24](https://github.com/arnaucoma24)
 
 ### License
-This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [GPL-3.0-only](LICENSE) license.
+This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [MIT](LICENSE) license.
 
 **Notice**: Ersilia grants access to models _as is_, directly from the original authors, please refer to the original code repository and/or publication if you use the model in your research.
 

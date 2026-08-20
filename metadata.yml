@@ -2,13 +2,7 @@ Identifier: eos19mt
 Slug: chebifier-antibiotic
 Status: Ready
 Title: Antibiotic classes prediction
-Description: An automated classification of chemicals in the ChEBI ontology 
-  based on a neuro-symbolic AI technique that harnesses the ontology itself to 
-  create the learning system and enables the classification of compounds into 38
-  GARDP antibiotic classes 
-  (https://revive.gardp.org/resource/classes-of-antibiotics/?cf=encyclopaedia). 
-  Benzenesulfonyls and heterocyclic antibiotics classes are not included due to 
-  lack of suitable ChEBI compound-class mappings.
+Description: Assigns a molecule to antibiotic structural classes such as aminoglycosides, beta-lactams and polyketides, expressed as presence or absence across 38 categories inspired by the GARDP classification. Predictions rest on Chebifier, a neuro-symbolic approach from Glauer and colleagues that classifies chemicals into the ChEBI ontology by exploiting the ontology's own hierarchy during learning, allowing it to extend as ChEBI grows. Classes are inferred from structure alone, so an assignment reflects structural resemblance rather than demonstrated antibacterial activity.
 Deployment:
   - Local
 Source: Local
@@ -22,8 +16,7 @@ Output:
   - Value
 Output Dimension: 38
 Output Consistency: Fixed
-Interpretation: Presence (1) or absence (0) of ChEBI predicted parents 
-  associated with pre-defined GARDP-inspired antibiotic classes
+Interpretation: Presence or absence of each of 38 antibiotic structural classes inferred from ChEBI ontology parents.
 Tag:
   - Antimicrobial activity
 Biomedical Area:
@@ -31,10 +24,10 @@ Biomedical Area:
 Target Organism:
   - Any
 Publication Type: Peer reviewed
-Publication Year: 2025
-Publication: https://doi.org/10.1038/s41467-025-62717-7
+Publication Year: 2024
+Publication: https://doi.org/10.1039/d3dd00238a
 Source Code: https://github.com/ChEB-AI/python-chebifier
-License: GPL-3.0-only
+License: MIT
 Contributor: arnaucoma24
 Incorporation Date: '2025-08-26'
 Last Packaging Date: '2026-04-20'
@@ -50,4 +43,3 @@ Computational Performance 2: 86.52
 Computational Performance 3: 132.42
 Computational Performance 4: 917.94
 Computational Performance 5: -1.0
-Publication: https://doi.org/10.1038/s41467-025-62717-7
