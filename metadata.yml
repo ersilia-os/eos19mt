@@ -1,6 +1,6 @@
 Identifier: eos19mt
 Slug: chebifier-antibiotic
-Status: Ready
+Status: In maintenance
 Title: Antibiotic classes prediction
 Description: An automated classification of chemicals in the ChEBI ontology 
   based on a neuro-symbolic AI technique that harnesses the ontology itself to 
