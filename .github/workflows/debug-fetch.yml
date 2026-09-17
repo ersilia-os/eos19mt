@@ -1,0 +1,26 @@
+name: Debug fetch (temporary)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  debug-fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+        with:
+          lfs: true
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          python-version: "3.10"
+          activate-environment: test
+      - name: Install ersilia
+        shell: bash -l {0}
+        run: |
+          pip install 'ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git'
+      - name: Raw verbose fetch (no wrapper, no quiet mode)
+        shell: bash -l {0}
+        run: |
+          set +e
+          ersilia -v fetch eos19mt --from_dir "$(pwd)"
+          echo "EXIT CODE: $?"
