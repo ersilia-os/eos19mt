@@ -28,8 +28,8 @@ penams,integer,high,Presence of ChEBI predicted parents associated with Penams
 peroxides,integer,high,Presence of ChEBI predicted parents associated with Peroxides
 phenols,integer,high,Presence of ChEBI predicted parents associated with Phenols
 phosphonic_acid_der,integer,high,Presence of ChEBI predicted parents associated with Phosphonic acid derivatives
-polyketides_type_I,integer,high,Presence of ChEBI predicted parents associated with Polyketides – type I (macrolides/ketolides)
-polyketides_type_II,integer,high,Presence of ChEBI predicted parents associated with Polyketides – type II (tetracyclines)
+polyketides_type_1,integer,high,Presence of ChEBI predicted parents associated with Polyketides – type I (macrolides/ketolides)
+polyketides_type_2,integer,high,Presence of ChEBI predicted parents associated with Polyketides – type II (tetracyclines)
 polypeptides,integer,high,Presence of ChEBI predicted parents associated with Polypeptides
 pyrazines,integer,high,Presence of ChEBI predicted parents associated with Pyrazines
 pyridinium,integer,high,Presence of ChEBI predicted parents associated with Pyridiniums
