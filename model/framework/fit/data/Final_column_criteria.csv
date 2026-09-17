@@ -15,8 +15,8 @@ Nitrofurans,CHEBI:87230,nitrofurans
 Nucleosides,CHEBI:33838,nucleosides
 Oxazolidinones,CHEBI:55374,oxazolidinones
 Phenols,CHEBI:33853 or CHEBI:26195,phenols
-Polyketides – type I (macrolides/ketolides),CHEBI:26188 and (CHEBI:25106 or CHEBI:25105),polyketides_type_I
-Polyketides – type II (tetracyclines),CHEBI:26188 and CHEBI:26895,polyketides_type_II
+Polyketides – type I (macrolides/ketolides),CHEBI:26188 and (CHEBI:25106 or CHEBI:25105),polyketides_type_1
+Polyketides – type II (tetracyclines),CHEBI:26188 and CHEBI:26895,polyketides_type_2
 Polypeptides,CHEBI:15841,polypeptides
 (Fluoro)Quinolones,CHEBI:87211,fluoroquinolones
 Quinolines,CHEBI:26513 or CHEBI:26512 or CHEBI:38921 or CHEBI:53665 or CHEBI:36709 or CHEBI:38774 or CHEBI:38775,quinolines
