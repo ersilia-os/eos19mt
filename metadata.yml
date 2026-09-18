@@ -38,7 +38,7 @@ License: MIT
 Contributor: arnaucoma24
 Incorporation Date: '2025-08-26'
 Last Packaging Date: '2026-09-18'
-Release: v2.1.2
+Release: v3.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos19mt.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos19mt
 Docker Architecture:
