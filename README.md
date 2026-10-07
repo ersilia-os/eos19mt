@@ -1,6 +1,6 @@
 # Antibiotic classes prediction
 
-Assigns a molecule to antibiotic structural classes such as aminoglycosides, beta-lactams and polyketides, expressed as presence or absence across 38 categories inspired by the GARDP classification. Predictions rest on Chebifier, a neuro-symbolic approach from Glauer and colleagues that classifies chemicals into the ChEBI ontology by exploiting the ontology's own hierarchy during learning, allowing it to extend as ChEBI grows. Classes are inferred from structure alone, so an assignment reflects structural resemblance rather than demonstrated antibacterial activity.
+Assigns a molecule to antibiotic structural classes such as aminoglycosides, beta-lactams and polyketides, expressed as presence or absence across 38 categories curated internally by Ersilia and inspired by the GARDP classification. Predictions rest on Chebifier, a neuro-symbolic AI framework from Glauer and colleagues that classifies chemicals into the ChEBI ontology by leveraging the ontology's own structure to guide the learning system. Classes are inferred from structure alone, so an assignment reflects structural resemblance rather than demonstrated antibacterial activity.
 
 This model was incorporated on 2025-08-26.Last packaged on 2026-09-18.
 
