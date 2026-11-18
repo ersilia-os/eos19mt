@@ -1,8 +1,9 @@
 # Antibiotic classes prediction
 
-Assigns a molecule to antibiotic structural classes such as aminoglycosides, beta-lactams and polyketides, expressed as presence or absence across 38 categories curated internally by Ersilia and inspired by the GARDP classification. Predictions rest on Chebifier, a neuro-symbolic AI framework from Glauer and colleagues that classifies chemicals into the ChEBI ontology by leveraging the ontology's own structure to guide the learning system. Classes are inferred from structure alone, so an assignment reflects structural resemblance rather than demonstrated antibacterial activity.
+Assigns a molecule to antibiotic structural classes such as aminoglycosides, beta-lactams and polyketides, expressed as presence or absence across 38 categories curated internally by Ersilia and inspired by the GARDP classification. Predictions rest on Chebifier, a neuro-symbolic AI framework from Glauer and colleagues that classifies chemicals into the ChEBI ontology by leveraging the ontologys own structure to guide the learning system. Classes are inferred from structure alone, so an assignment reflects structural resemblance rather than demonstrated antibacterial activity.
 
-This model was incorporated on 2025-08-26.Last packaged on 2026-09-18.
+This model was incorporated on 2025-08-26.
+Last packaged on 2026-09-18.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 38 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos19mt](https://hub.docker.com/r/ersiliaos/eos19mt)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos19mt.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos19mt.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos19mt_v3.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos19mt_v3.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `614`
